@@ -35,12 +35,12 @@ def calculoVolume(expre, limitInferior=None, limitSuperior=None):
 x = Symbol('x')
 
 print("=-"*40)
-print(f"{"Calculadora de Área, Comprimento e Volume":^80}")
+print(f"{'Calculadora de Área, Comprimento e Volume':^80}")
 print("=-"*40)
 
-expressão = str(input("Digite a função f(x): "))
-limiteInicial = str(input("Digite o limite inicial do limite de interação: "))
-limiteFinal = str(input("Digite o limite final do limite de interação: "))
+expressão = str(input("    Digite a função f(x): "))
+limiteInicial = str(input("    Digite o limite inicial do limite de interação: "))
+limiteFinal = str(input("    Digite o limite final do limite de interação: "))
 
 limiteInicial = float(limiteInicial) if limiteInicial else None
 limiteFinal = float(limiteFinal) if limiteFinal else None
